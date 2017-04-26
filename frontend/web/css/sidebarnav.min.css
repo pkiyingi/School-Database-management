@@ -1,0 +1,32 @@
+.kv-sidenav ul {
+    margin: 0;
+    padding: 0;
+}
+.kv-sidenav li a {
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;
+}
+.kv-sidenav .closed, .kv-sidenav .opened {
+    float: right;
+}
+.kv-sidenav .indicator {
+    color: #999;
+}
+.kv-sidenav .active > a > span > .indicator {
+    color: #fff;
+}
+.kv-sidenav .active > ul {
+    background-color: #f3f8fc;
+}
+.kv-sidenav .nav, .kv-sidenav .nav .nav {
+    display: none;
+}
+.kv-sidenav .nav a {
+    padding-left: 9%;
+}
+.kv-sidenav .nav .nav a {
+    padding-left: 18%;
+}
+.kv-sidenav .active > ul, .kv-sidenav .nav .active > ul {
+    display: block;
+}

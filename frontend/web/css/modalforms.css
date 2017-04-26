@@ -1,0 +1,37 @@
+﻿/*MODALS - POP UPS*/
+div.modal {
+    width: 100%;
+    margin: 0;
+}
+div.modal-content {
+    border-radius: 0px;
+    padding:2px !important;
+}
+    div.modal-content.alert {
+        border-radius:0px;
+        border:1px solid #808080;
+        margin:4px;
+    }
+
+div.modal-header {
+    background: #11509F none repeat scroll 0% 0%;
+    color:yellow;
+    padding: 5px;
+    border: 1px solid #ECF0F1;
+    padding-top:7px;
+    padding-bottom:7px;
+    left:30px;
+}
+
+    div.modal-header h2 {
+        color: yellow !important;
+        font-weight: 800;
+        border-bottom: none !important;
+    }
+
+div.modal-footer {
+    background: #EDEDED none repeat scroll 0% 0%;
+    border: 1px solid #D9DEE4;
+    margin-top: 0px;
+    padding: 4px;
+}

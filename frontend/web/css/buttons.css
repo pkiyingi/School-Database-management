@@ -1,0 +1,54 @@
+@import url('forms.css');
+@import url('bootstrap-social.min.css');
+/*
+Buttons for the site
+*/
+/* 
+    Created on : Jun 9, 2015, 5:19:41 PM
+    Author     : Eng. Okumu Francis
+*/
+.btn{
+    border-radius: 0px;
+}
+
+.btn-blue:hover,
+.btn-green:hover {
+    background-color: #64C306;
+    background-image: none;
+}
+.btn-blue:hover, .btn-blue:focus
+{
+    background-color: #396BBC;
+    background-image: -moz-linear-gradient(center top , #5587D7, #396BBC);
+}
+
+a.btn-blue,
+a.btn-green {
+    color: #FFF !important;
+    text-decoration: none;
+}
+
+.btn-green {
+    background: -moz-linear-gradient(center top , #7DDC1F 0px, #64C306 100%) repeat scroll 0% 0% #7DDC1F;
+    border-color: #5DBA00;
+    font: 400 15px/22px "Open sans",Arial,sans-serif;
+    letter-spacing: 0.5px;
+    color:#fff;
+}
+
+.btn-blue {
+    background-color: #4173C9;
+    background-image: -moz-linear-gradient(center top , #5E8EE4, #4173C9);
+    border: 0px none;
+    border-radius: 2px;
+    color: #FFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 1.54;
+    padding: 7px 12px;
+    text-align: center;
+    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.08);
+}

@@ -1,0 +1,12 @@
+[16-Nov-2015 00:07:25 America/Denver] PHP Fatal error:  Using $this when not in object context in /home2/legalca1/public_html/frontend/mail/layouts/text.php on line 8
+[16-Nov-2015 00:07:42 America/Denver] PHP Fatal error:  Using $this when not in object context in /home2/legalca1/public_html/frontend/mail/layouts/html.php on line 9
+[16-Nov-2015 06:09:15 America/Denver] PHP Fatal error:  Using $this when not in object context in /home2/legalca1/public_html/frontend/mail/layouts/text.php on line 8
+[16-Nov-2015 06:09:36 America/Denver] PHP Fatal error:  Using $this when not in object context in /home2/legalca1/public_html/frontend/mail/layouts/html.php on line 9
+[16-Nov-2015 11:49:18 America/Denver] PHP Fatal error:  Using $this when not in object context in /home2/legalca1/public_html/frontend/mail/layouts/html.php on line 9
+[16-Nov-2015 11:49:39 America/Denver] PHP Fatal error:  Using $this when not in object context in /home2/legalca1/public_html/frontend/mail/layouts/text.php on line 8
+[16-Nov-2015 18:06:52 America/Denver] PHP Fatal error:  Using $this when not in object context in /home2/legalca1/public_html/frontend/mail/layouts/text.php on line 8
+[16-Nov-2015 18:07:13 America/Denver] PHP Fatal error:  Using $this when not in object context in /home2/legalca1/public_html/frontend/mail/layouts/html.php on line 9
+[17-Nov-2015 00:41:37 America/Denver] PHP Fatal error:  Using $this when not in object context in /home2/legalca1/public_html/frontend/mail/layouts/html.php on line 9
+[17-Nov-2015 00:41:58 America/Denver] PHP Fatal error:  Using $this when not in object context in /home2/legalca1/public_html/frontend/mail/layouts/text.php on line 8
+[02-Dec-2015 07:04:07 America/Denver] PHP Fatal error:  Using $this when not in object context in /home2/legalca1/public_html/frontend/mail/layouts/html.php on line 9
+[19-Dec-2015 11:51:15 America/Denver] PHP Fatal error:  Using $this when not in object context in /home2/legalca1/public_html/frontend/mail/layouts/html.php on line 9
