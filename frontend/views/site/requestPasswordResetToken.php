@@ -12,7 +12,7 @@ $this->title = 'Request password reset';
     </div>
     <p class="form-signin-heading">Self Service Portal</p>
 
-    <p class="alert alert-info">Please fill out your email. We will send you a link to reset your password in your email.</p>           
+    <p class="alert alert-info">Please fill out your username. We will send you a link to reset your password in your registered email.</p>
     <?= $form->field($model, 'username')->textInput(['placeholder'=>'Your Username'])->label('Username') ?>
     <div class="form-group">
         <?= Html::submitButton('Submit', ['class' => 'btn btn-primary btn-block']) ?>

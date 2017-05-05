@@ -34,19 +34,27 @@ class PasswordResetRequestForm extends Model {
      * @return boolean whether the email was send
      */
     public function sendEmail() {
+        $user = User::findOne([
+            'username' => $this->username,
+        ]);
 
+        if (!$user) {
+            return false;
+        }
+        
+        if (!User::isPasswordResetTokenValid($user->password_reset_token)) {
+            $user->generatePasswordResetToken();
+            if (!$user->save()) {
+                return false;
+            }
+        }
 
-        if (User::setPasswordResetToken($this->username)) {
-            $user = User::findByUsername($this->username);
-            return \Yii::$app->mailer->compose(['html' => 'passwordResetToken-html',
+        return \Yii::$app->mailer->compose(['html' => 'passwordResetToken-html',
                                 'text' => 'passwordResetToken-text'], ['user' => $user])
                             ->setFrom([\Yii::$app->params['supportEmail'] => \Yii::$app->name])
                             ->setTo($user->email)
                             ->setSubject('PASSWORD RESET REQUEST FOR ' . \Yii::$app->name)
                             ->send();
-        }
-
-        return false;
     }
 
 }

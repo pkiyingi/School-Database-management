@@ -33,3 +33,4 @@ phpunit.phar
 /memberpics/
 /sql/
 /errors.log
+/exclude_list.txt
