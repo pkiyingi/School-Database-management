@@ -12,11 +12,10 @@ use common\models\loan\LoanGuarantor;
 use common\models\member\BankAccount;
 use common\models\savings\MemberAccounts;
 use common\models\savings\SavingsProduct;
-
 use common\models\Processrequest\Processrequest;
 
-
 /**
+ * This model is the User Module for Login
  * This is the model class for table "mst_member".
  *
  * @property integer $member_id
